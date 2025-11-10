@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1240px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(270deg, #aa4b6b, #3b8d99);
+  z-index: 3;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration-line: none;
+  color: white;
+  font-family: "Audiowide";
+  font-size: 70px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  padding: 0;
+  position: sticky;
+}
+
+.navbar-link {
+  text-decoration-line: none;
+  color: white;
+  font-family: "Quantico";
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.navbar-link:hover {
+  background-color: white;
+  transition: 0.3s;
+  color: #3b8d99;
+}
+
+.hsize {
+  font-family: "Aubrey";
+  font-size: 70px;
+  margin-left: 350px;
+}
+
+.list {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px solid gray;
+  margin-block: 20px;
+  border-radius: 20px;
+  width: 570px;
+  height: 430px;
+}
+
+.project-pic {
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+
+.strong {
+  font-family: "Aubrey";
+  font-size: 30px;
+  margin-top: 20px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.gray-text {
+  font-family: "Aubrey";
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.more-bout-my-projects {
+  text-decoration-line: none;
+  background: linear-gradient(270deg, #aa4b6b, #3b8d99);
+  color: white;
+  padding: 15px 50px;
+  border-radius: 10px;
+  font-family: "Aubrey";
+  font-size: 30px;
+  font-weight: 50px;
+  margin-left: 490px;
+}
+
+.site-footer {
+  background-image: url("./myfamilyfooterbg.jpg");
+  padding-bottom: 20px;
+}
+
+.footer-top-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.footer-logo {
+  text-decoration-line: none;
+  font-family: "Audiowide";
+  font-size: 70px;
+}
+
+.footer-list {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-list-two {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration-line: none;
+  font-weight: 500;
+  font-family: "Quantico";
+  color: #551a8b;
+}

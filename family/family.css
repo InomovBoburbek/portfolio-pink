@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1240px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.section {
+  background-image: url("./freepikbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+}
+
+.logo {
+  text-decoration-line: none;
+  color: white;
+  font-family: "Audiowide";
+  font-size: 70px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  padding: 0;
+}
+
+.navbar-link {
+  text-decoration-line: none;
+  color: white;
+  font-family: "Quantico";
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.navbar-link:hover {
+  background-color: white;
+  transition: 0.3s;
+  color: #6d4c41;
+}
+
+.myfam-info {
+  color: white;
+  font-family: "Quantico";
+  font-size: 30px;
+  width: 530px;
+  margin-left: 350px;
+  margin-block: 70px;
+}
+
+.family-sticker {
+  margin-left: 350px;
+}
+
+.box {
+  margin-top: 150px;
+}
+
+.family-member-card {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding-block: 70px;
+}
+
+.family-member-desc {
+  width: 450px;
+}
+
+.strong {
+  font-family: "Aubrey";
+  font-weight: 400px;
+  font-size: 80px;
+  color: #6d4c41;
+}
+
+.description {
+  font-family: "Aubrey";
+  font-size: 40px;
+}
+
+.album-text {
+  font-family: "Aubrey";
+  font-size: 70px;
+  text-align: center;
+  margin: 0;
+  padding-block: 50px;
+}
+
+.photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.family-album {
+  margin: 0;
+}
+
+.fam-pic {
+  border-radius: 100px;
+  box-shadow: 0px 0px 70px #6d4c41;
+  transition: transform 0.3s linear, box-shadow 0.3s linear;
+}
+
+.fam-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 100px #6d4c41;
+}
+
+.site-footer {
+  background-image: url("./myfamilyfooterbg.jpg");
+}
+
+.footer-top-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.footer-logo {
+  text-decoration-line: none;
+  font-family: "Audiowide";
+  font-size: 70px;
+}
+
+.footer-list {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-list-two {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration-line: none;
+  font-weight: 500;
+  font-family: "Quantico";
+}

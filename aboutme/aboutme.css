@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1240px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.section-one {
+  background-image: url("./bgimgoneaboutme.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 170px;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+}
+
+.logo {
+  text-decoration-line: none;
+  color: #c2ad73;
+  font-family: "Audiowide";
+  font-size: 70px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  padding: 0;
+}
+
+.navbar-link {
+  text-decoration-line: none;
+  color: #c2ad73;
+  font-family: "Quantico";
+  font-size: 20px;
+  border: 1px solid #c2ad73;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.navbar-link:hover {
+  background-color: #ddba8b;
+  transition: 0.9s;
+  color: #c2ad73;
+}
+
+.bout-me-div {
+  width: 600px;
+  text-align: center;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+.bout-me {
+  font-family: "Merienda";
+  color: #9f8644;
+  font-size: 30px;
+}
+
+.my-hobby {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desc-of-me-hobby-div {
+  width: 500px;
+}
+
+.desc-of-me-hobby-text {
+  font-family: "Merienda";
+  font-size: 30px;
+  color: #9f8644;
+}
+
+.desc-of-me-hobby-text-other {
+  font-family: "Merienda";
+  font-size: 30px;
+  color: #9f8644;
+  text-align: center;
+  width: 400px;
+  margin-left: 30px;
+}
+
+img {
+  margin-top: 100px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 120px #6d4c41;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.site-footer {
+  background-image: url("./myfamilyfooterbg.jpg");
+}
+
+.footer-top-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.footer-logo {
+  text-decoration-line: none;
+  font-family: "Audiowide";
+  font-size: 70px;
+}
+
+.footer-list {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-list-two {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration-line: none;
+  font-weight: 500;
+  font-family: "Quantico";
+}

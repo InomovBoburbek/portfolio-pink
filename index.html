@@ -1,21 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="box">
-      <h3>Ustozim nurim</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        quasi sint impedit adipisci dignissimos, deserunt saepe natus corrupti,
-        optio cumque sit consequatur magnam ullam perferendis temporibus rem!
-        Modi accusamus qui corrupti, dolores vero dolor illum officiis, quae
-        incidunt eaque eum.
-      </p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amarante&family=Aubrey&family=Audiowide&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <main>
+    <section class="hero">
+      <header class="header">
+        <div class="container">
+          <div class="header-box">
+            <a class="logo animate__animated animate__fadeInLeft" href="/">Rofiya</a>
+
+            <nav class="navbar">
+              <ul class="navbar-list animate__animated animate__fadeInRight">
+                <li class="navbar-item">
+                  <a class="navbar-link" href="#aboutme"> Men haqimda </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a class="navbar-link" href="#family"> Mening oilam </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a class="navbar-link" href="#myprojects">
+                    Mening loyihalarim
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <section class="hero-two" id="aboutme">
+        <div class="container">
+          <div class="box-two">
+            <div class="box-child">
+              <h1 class="hsize">Assalomu alaykum</h1>
+              <p class="intro-about-myself">
+                Mening ismim Rofiya.PDP Juniorda 3 oydan beri Frontend
+                yo'nalishida o'qimoqdaman.
+              </p>
+              <a class="more-bout-me" href="./aboutme/aboutme.html">Men haqimda</a>
+            </div>
+            <img class="myself" src="./myselfinfrontapt.jpg" alt="" width="300px" height="500px" />
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="hero-three" id="family">
+      <div class="container">
+        <div class="box-three">
+          <img class="myfam" src="./family.jpg" alt="" width="700px" height="500px" />
+
+          <div class="box-child-two">
+            <h2 class="hsize-two">Mening oilam</h2>
+            <p class="intro-about-myfam">
+              Bu Bizning oila. Bizning oilada adam, oyim, eng katta farzand
+              men, singlim va ukamdan tashkil topgan.
+            </p>
+            <a class="more-bout-myfam" href="/family">Mening oilam</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero-four" id="myprojects">
+      <div class="container">
+        <div class="box-four">
+          <h3 class="hsize-three">Mening Loyihalarim</h3>
+
+          <ul class="list">
+            <div class="card">
+              <img class="project-pic" src="./firstproject.jpg" alt="" width="550px" height="300px" />
+              <strong class="strong">Gradient loyiham</strong>
+              <p class="gray-text">
+                Bu loyihada bizlar bir necha ranglarni birga qo'yishni
+                o'rgandik
+              </p>
+            </div>
+
+            <div class="card">
+              <img class="project-pic" src="./secondproject.jpg" alt="" width="550px" height="300px" />
+              <strong class="strong">Position loyiham</strong>
+              <p class="gray-text">
+                Bu loyihada bizlar bir narsani boshqa joyga surishni o'rgandik
+              </p>
+            </div>
+
+            <div class="card">
+              <img class="project-pic" src="./thirdproject.jpg" alt="" width="550px" height="300px" />
+              <strong class="strong">3legant loyiham</strong>
+              <p class="gray-text">
+                Bu loyiha bizlarining amaliy mashqimizni yaxshilash uchun edi
+              </p>
+            </div>
+
+            <div class="card">
+              <img class="project-pic" src="./fourthproject.jpg" alt="" width="550px" height="300px" />
+              <strong class="strong">Coventic loyiham</strong>
+              <p class="gray-text">Bu loyihani prezentatsiya uchun qildik</p>
+            </div>
+
+            <div class="card">
+              <img class="project-pic" src="./fifthproject.jpg" alt="" width="550px" height="300px" />
+              <strong class="strong">Uzum market loyiham</strong>
+              <p class="gray-text">
+                Bu loyiha amaliy mashqimizni oshirish uchun edi
+              </p>
+            </div>
+
+            <div class="card">
+              <img class="project-pic" src="./sixthproject.jpg" alt="" width="550px" height="300px" />
+              <strong class="strong">Insure loyiham</strong>
+              <p class="gray-text">
+                Bu loyiha katta loyihalarimizning birinchisi edi.
+              </p>
+            </div>
+          </ul>
+
+          <a class="more-bout-my-projects" href="./projects/projects.html">
+            Loyihalarim
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-box">
+        <div class="footer-top-box">
+          <a class="footer-logo" href="">Rofiya</a>
+
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                <i class="fa-brands fa-telegram fa-2x"></i>
+              </a>
+            </li>
+
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                <i class="fa-brands fa-pinterest fa-2x"></i>
+              </a>
+            </li>
+
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                <i class="fa-brands fa-square-whatsapp fa-2x"></i>
+              </a>
+            </li>
+
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                <i class="fa-brands fa-square-snapchat fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="footer-list-two">
+          <li class="item">
+            <a class="link" href="#">MEN HAQIMDA</a>
+          </li>
+
+          <li class="item">
+            <a class="link" href="#">MENING OILAM</a>
+          </li>
+
+          <li class="item">
+            <a class="link" href="#">MENING LOYIHALARIM</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </body>
+  </footer>
+</body>
+
 </html>
